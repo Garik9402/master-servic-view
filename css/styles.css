@@ -283,7 +283,7 @@
 .popup .form__input-box::before {
   content: "";
   position: absolute;
-  background-image: url(../images/phone.png);
+  background-image: url(../images/phone.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 22.51px;
@@ -553,6 +553,11 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.header__nav-item-link:hover {
+  color: #43B6FE;
+  transition: all 0.3s;
+}
+
 .header__nav-item-link--active {
   color: black;
 }
@@ -614,7 +619,7 @@ body {
   position: relative;
   width: 100%;
   padding: 90px 0px 155px;
-  background-image: url(../images/hero-bg.png);
+  background-image: url(../images/hero-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -747,7 +752,7 @@ body {
 .form__input-box::before {
   content: "";
   position: absolute;
-  background-image: url(../images/phone.png);
+  background-image: url(../images/phone.webp);
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
@@ -858,6 +863,10 @@ body {
   border-radius: 6px;
   left: 0;
   bottom: -40px;
+}
+
+.repair__title-blue-word {
+  color: rgb(62, 186, 254);
 }
 
 .repair__cards {
