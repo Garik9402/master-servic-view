@@ -1270,6 +1270,24 @@ body {
     padding: 0 15px;
   }
 
+  .header {
+    padding: 7px 0px;
+  }
+
+  .header__logo-icon {
+    width: 30px;
+    height: 25px;
+  }
+
+  .header__logo-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .header__logo-subtitle {
+    font-size: 11px;
+  }
+
   .header__burger {
     display: block;
     position: relative;
